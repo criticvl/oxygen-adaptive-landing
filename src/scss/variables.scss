@@ -1,0 +1,24 @@
+@use 'fonts.scss';
+
+$font-family: "OpenSans";
+$font-size: 24px;
+
+$container-width: 1170px;
+
+$bp-xl: $container-width + 15.98 + "px";
+$bp-md: 991.98px;
+$bp-sm: 767.98px;
+$bp-xs: 479.98px;
+$bp-xxs: 319.98px;
+
+$speed: 250ms;
+
+$color-primary: #00B2A0;
+$color-secondary: #FCBB08;
+$color-dark: #2A2A2A;
+$color-light: #3A3A3A;
+$color-text: #212121;
+$color-container-bg: #ECEEF0;
+
+$color-scheme-default: $color-text, $color-container-bg;
+$color-scheme-dark: $color-container-bg, $color-dark;

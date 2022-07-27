@@ -1,0 +1,48 @@
+@use "mixins.scss" as *;
+@use "variables.scss" as *;
+
+@use "fonts.scss";
+
+@use "reset.scss";
+@use "header.scss";
+@use "index.scss";
+@use "footer.scss";
+@use "adaptive.scss";
+
+* {
+  box-sizing: border-box;
+  font-family: $font-family;
+  font-size: $font-size;
+  cursor: default;
+  @include color-scheme($color-text, transparent);
+  outline: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+p {
+  color: #373a39;
+  font-size: 14px;
+  font-family: "OpenSans";
+  line-height: 24px;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+body::-webkit-scrollbar-thumb {
+  background: rgb(72, 72, 72);
+}
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  box-sizing: content-box;
+}

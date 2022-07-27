@@ -1,0 +1,74 @@
+@use "mixins.scss" as *;
+@use "variables.scss" as *;
+
+@use "fonts.scss";
+
+.footer {
+  background-color: #373a39;
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__logo::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 150px;
+  background-color: $color-secondary;
+  margin-top: 24px;
+}
+
+.footer__content {
+  padding-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+  gap: 70px;
+}
+
+.footer__nav-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 690px;
+  gap: 28px;
+  text-align: center;
+}
+
+.footer__address {
+  color: #a8a8a8;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer__item-link {
+  color: #ffffff;
+  letter-spacing: 4px;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: "montserrat";
+  text-transform: uppercase;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 42px 0;
+  background-color: #2a2c2b;
+}
+
+.footer__copyright {
+  font-size: 12px;
+  font-weight: 400;
+  color: #cccccc;
+  letter-spacing: 0;
+  text-align: center;
+}

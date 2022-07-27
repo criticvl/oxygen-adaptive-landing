@@ -1,0 +1,14 @@
+@use "sass:list";
+
+@use 'variables.scss' as *;
+
+@use 'fonts.scss';
+
+@mixin color-scheme($text, $container-bg) {
+  color: $text;
+  @if list.length($container-bg) == 1 {
+    background-color: $container-bg;
+  } @else {
+    background-image: linear-gradient(to top left, $container-bg);
+  }
+}

@@ -1,0 +1,108 @@
+@use "mixins.scss" as *;
+@use "variables.scss" as *;
+
+@use "fonts.scss";
+@use "iconmoon.scss";
+
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 94px;
+  padding: 0 52px;
+  font-family: "raleway";
+  font-size: calc($font-size / 2);
+  font-weight: 700;
+}
+
+.logo {
+  font-size: 42px;
+  font-family: "icomoon";
+}
+
+.nav__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.nav__ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav__link{
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+
+.nav__item--active::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 24px;
+    background-color: $color-secondary;
+}
+
+.header__content{
+    width: 100%;
+    height: calc(100vh - 94px);
+    background-image: url('../imgs/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header__content-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header__title{
+    font-size: 100px;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.header__desc{
+    font-size: 16px;
+    color: $color-secondary;
+    letter-spacing: 2.7px;
+    background-color: transparent;
+    margin-top: 18px;
+}
+
+.header__mouse-icon{
+    position: absolute;
+    font-family: 'icomoon';
+    background-color: transparent;
+    font-size: 42px;
+    left: 50%;
+    bottom: 62px;
+    transform: translateX(-50%);
+    animation: mouseMove 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mouseMove {
+    0% {bottom: 62px}
+    75% {bottom: 94px;}
+    100% {bottom: 62px;}
+}

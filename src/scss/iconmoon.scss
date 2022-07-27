@@ -1,0 +1,32 @@
+@use "fonts.scss";
+
+.icon-mouse:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-arrow-left:before {
+  content: "\e900";
+}
+.icon-arrow-right:before {
+  content: "\e901";
+}
+.icon-expertiseVector1:before {
+  content: "\e902";
+  color: #00b2a0;
+}
+.icon-expertiseVector2:before {
+  content: "\e903";
+  color: #00b2a0;
+}
+.icon-expertiseVector3:before {
+  content: "\e904";
+  color: #00b2a0;
+}
+.icon-logo:before {
+  content: "\e905";
+  color: #00b2a0;
+}
+.icon-play:before {
+  content: "\e907";
+  color: #fff;
+}

@@ -1,0 +1,495 @@
+@font-face{
+                
+	font-family: icomoon;
+                
+	font-display: swap;
+                
+	src: url("../fonts/icomoon.woff2") 
+                format("woff2"), 
+                url("../fonts/icomoon.woff") 
+                format("woff");
+                
+	font-weight: 400;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Merriweather;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Merriweather-Black.woff2") 
+                format("woff2"), 
+                url("../fonts/Merriweather-Black.woff") 
+                format("woff");
+                
+	font-weight: 900;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Merriweather;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Merriweather-BlackItalic.woff2") 
+                format("woff2"), 
+                url("../fonts/Merriweather-BlackItalic.woff") 
+                format("woff");
+                
+	font-weight: 400;
+                
+	font-style: italic;
+              }
+@font-face{
+                
+	font-family: Merriweather;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Merriweather-BoldItalic.woff2") 
+                format("woff2"), 
+                url("../fonts/Merriweather-BoldItalic.woff") 
+                format("woff");
+                
+	font-weight: 400;
+                
+	font-style: italic;
+              }
+@font-face{
+                
+	font-family: Merriweather;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Merriweather-Bold.woff2") 
+                format("woff2"), 
+                url("../fonts/Merriweather-Bold.woff") 
+                format("woff");
+                
+	font-weight: 700;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Merriweather;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Merriweather-LightItalic.woff2") 
+                format("woff2"), 
+                url("../fonts/Merriweather-LightItalic.woff") 
+                format("woff");
+                
+	font-weight: 400;
+                
+	font-style: italic;
+              }
+@font-face{
+                
+	font-family: Merriweather;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Merriweather-Italic.woff2") 
+                format("woff2"), 
+                url("../fonts/Merriweather-Italic.woff") 
+                format("woff");
+                
+	font-weight: 400;
+                
+	font-style: italic;
+              }
+@font-face{
+                
+	font-family: Merriweather;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Merriweather-Light.woff2") 
+                format("woff2"), 
+                url("../fonts/Merriweather-Light.woff") 
+                format("woff");
+                
+	font-weight: 300;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Merriweather;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Merriweather-Regular.woff2") 
+                format("woff2"), 
+                url("../fonts/Merriweather-Regular.woff") 
+                format("woff");
+                
+	font-weight: 400;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Montserrat;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Montserrat-Black.woff2") 
+                format("woff2"), 
+                url("../fonts/Montserrat-Black.woff") 
+                format("woff");
+                
+	font-weight: 900;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Montserrat;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Montserrat-ExtraBold.woff2") 
+                format("woff2"), 
+                url("../fonts/Montserrat-ExtraBold.woff") 
+                format("woff");
+                
+	font-weight: 800;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Montserrat;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Montserrat-ExtraLight.woff2") 
+                format("woff2"), 
+                url("../fonts/Montserrat-ExtraLight.woff") 
+                format("woff");
+                
+	font-weight: 200;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Montserrat;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Montserrat-Bold.woff2") 
+                format("woff2"), 
+                url("../fonts/Montserrat-Bold.woff") 
+                format("woff");
+                
+	font-weight: 700;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Montserrat;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Montserrat-Light.woff2") 
+                format("woff2"), 
+                url("../fonts/Montserrat-Light.woff") 
+                format("woff");
+                
+	font-weight: 300;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Montserrat;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Montserrat-Regular.woff2") 
+                format("woff2"), 
+                url("../fonts/Montserrat-Regular.woff") 
+                format("woff");
+                
+	font-weight: 400;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Montserrat;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Montserrat-SemiBold.woff2") 
+                format("woff2"), 
+                url("../fonts/Montserrat-SemiBold.woff") 
+                format("woff");
+                
+	font-weight: 600;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: OpenSans;
+                
+	font-display: swap;
+                
+	src: url("../fonts/OpenSans-Bold.woff2") 
+                format("woff2"), 
+                url("../fonts/OpenSans-Bold.woff") 
+                format("woff");
+                
+	font-weight: 700;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Montserrat;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Montserrat-Medium.woff2") 
+                format("woff2"), 
+                url("../fonts/Montserrat-Medium.woff") 
+                format("woff");
+                
+	font-weight: 500;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: OpenSans;
+                
+	font-display: swap;
+                
+	src: url("../fonts/OpenSans-Light.woff2") 
+                format("woff2"), 
+                url("../fonts/OpenSans-Light.woff") 
+                format("woff");
+                
+	font-weight: 300;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Montserrat;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Montserrat-Thin.woff2") 
+                format("woff2"), 
+                url("../fonts/Montserrat-Thin.woff") 
+                format("woff");
+                
+	font-weight: 100;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: OpenSans;
+                
+	font-display: swap;
+                
+	src: url("../fonts/OpenSans-ExtraBold.woff2") 
+                format("woff2"), 
+                url("../fonts/OpenSans-ExtraBold.woff") 
+                format("woff");
+                
+	font-weight: 800;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: OpenSans;
+                
+	font-display: swap;
+                
+	src: url("../fonts/OpenSans-Medium.woff2") 
+                format("woff2"), 
+                url("../fonts/OpenSans-Medium.woff") 
+                format("woff");
+                
+	font-weight: 500;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: OpenSans;
+                
+	font-display: swap;
+                
+	src: url("../fonts/OpenSans-Regular.woff2") 
+                format("woff2"), 
+                url("../fonts/OpenSans-Regular.woff") 
+                format("woff");
+                
+	font-weight: 400;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: OpenSans;
+                
+	font-display: swap;
+                
+	src: url("../fonts/OpenSans-SemiBold.woff2") 
+                format("woff2"), 
+                url("../fonts/OpenSans-SemiBold.woff") 
+                format("woff");
+                
+	font-weight: 600;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Raleway;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Raleway-Black.woff2") 
+                format("woff2"), 
+                url("../fonts/Raleway-Black.woff") 
+                format("woff");
+                
+	font-weight: 900;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Raleway;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Raleway-ExtraBold.woff2") 
+                format("woff2"), 
+                url("../fonts/Raleway-ExtraBold.woff") 
+                format("woff");
+                
+	font-weight: 800;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Raleway;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Raleway-ExtraLight.woff2") 
+                format("woff2"), 
+                url("../fonts/Raleway-ExtraLight.woff") 
+                format("woff");
+                
+	font-weight: 200;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Raleway;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Raleway-Medium.woff2") 
+                format("woff2"), 
+                url("../fonts/Raleway-Medium.woff") 
+                format("woff");
+                
+	font-weight: 500;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Raleway;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Raleway-Regular.woff2") 
+                format("woff2"), 
+                url("../fonts/Raleway-Regular.woff") 
+                format("woff");
+                
+	font-weight: 400;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Raleway;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Raleway-Thin.woff2") 
+                format("woff2"), 
+                url("../fonts/Raleway-Thin.woff") 
+                format("woff");
+                
+	font-weight: 100;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Raleway;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Raleway-Light.woff2") 
+                format("woff2"), 
+                url("../fonts/Raleway-Light.woff") 
+                format("woff");
+                
+	font-weight: 300;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Raleway;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Raleway-SemiBold.woff2") 
+                format("woff2"), 
+                url("../fonts/Raleway-SemiBold.woff") 
+                format("woff");
+                
+	font-weight: 600;
+                
+	font-style: normal;
+              }
+@font-face{
+                
+	font-family: Raleway;
+                
+	font-display: swap;
+                
+	src: url("../fonts/Raleway-Bold.woff2") 
+                format("woff2"), 
+                url("../fonts/Raleway-Bold.woff") 
+                format("woff");
+                
+	font-weight: 700;
+                
+	font-style: normal;
+              }
