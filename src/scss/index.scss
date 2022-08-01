@@ -116,6 +116,11 @@
   object-fit: cover;
 }
 
+.magic picture {
+  width: 50%;
+  height: auto;
+}
+
 .magic__content {
   padding: 110px 32px;
   max-width: 470px;
@@ -329,8 +334,8 @@
   text-align: center;
 }
 
-.pricing{
-    padding: 120px 0;
+.pricing {
+  padding: 120px 0;
 }
 
 .pricing__container {
@@ -390,7 +395,7 @@
   white-space: nowrap;
 }
 
-.pricing__mobile-link{
+.pricing__mobile-link {
   display: none;
   width: 100%;
   font-size: 24px;
@@ -415,41 +420,46 @@
   font-family: "montserrat";
 }
 
-.get-in-touch__content{
+.get-in-touch__content {
   width: 55%;
   padding-top: 140px;
   padding-bottom: 180px;
 }
 
-.get-in-touch{
+.get-in-touch {
   justify-content: space-between;
 }
 
-.get-in-touch__form{
+.get-in-touch picture {
+  width: 50%;
+  height: auto;
+}
+
+.get-in-touch__form {
   display: flex;
   flex-direction: column;
   padding-top: 94px;
   max-width: 510px;
 }
 
-.get-in-touch__input{
+.get-in-touch__input {
   border: none;
-  border-bottom: solid 2px #373A39;
+  border-bottom: solid 2px #373a39;
   font-weight: 400;
   min-height: 38px;
   margin-bottom: 32px;
   font-size: 16px;
 }
 
-.get-in-touch__input::placeholder{
+.get-in-touch__input::placeholder {
   letter-spacing: 3.7px;
   line-height: 20px;
   font-size: 12px;
 }
 
-.get-in-touch__message{
+.get-in-touch__message {
   border: none;
-  border-bottom: solid 2px #373A39;
+  border-bottom: solid 2px #373a39;
   font-weight: 400;
   min-height: 150px;
   font-size: 14px;
@@ -457,13 +467,13 @@
   max-width: 100%;
 }
 
-.get-in-touch__message::placeholder{
+.get-in-touch__message::placeholder {
   letter-spacing: 3.7px;
   line-height: 20px;
   font-size: 12px;
 }
 
-.get-in-touch__submit{
+.get-in-touch__submit {
   margin-top: 40px;
   background-color: $color-text;
   color: #ffffff;
@@ -472,12 +482,12 @@
   font-weight: 700;
   padding: 16px 0;
   max-width: 230px;
-  font-family: 'montserrat';
+  font-family: "montserrat";
   text-transform: uppercase;
   border: none;
 }
 
-.get-in-touch__image{
+.get-in-touch__image {
   padding-left: 60px;
   width: 100%;
   min-height: 100vh;
