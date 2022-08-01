@@ -111,8 +111,8 @@
 }
 
 .magic__image {
-  width: 45%;
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
   object-fit: cover;
 }
 
@@ -479,6 +479,7 @@
 
 .get-in-touch__image{
   padding-left: 60px;
-  width: 45%;
+  width: 100%;
+  min-height: 100vh;
   object-fit: cover;
 }
